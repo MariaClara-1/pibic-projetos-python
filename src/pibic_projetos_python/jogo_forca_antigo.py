@@ -3,10 +3,12 @@
 # Definir palavra secreta (todas as letras minúsculas):
 import random
 
+
 palavras = ["python", "computador", "programa", "comandos", "codigo",
             "algoritmo", "teclado", "monitor", "tecnologia", "arquivo"]
 
 palavra_secreta = random.choice(palavras)
+
 
 # A quantidade de traços equivale ao tamanho da palavra secreta:
 quantidade_tracinhos = ["_"] * len(palavra_secreta)
@@ -84,7 +86,3 @@ if __name__ == "__main__":
 
 
 
-
-
-    
-    
